@@ -1,7 +1,8 @@
 <view class="path_background">
 <!-- AI列表 -->
 <view class="path_card" qq:for="{{data_ai}}">
-<image class="image_aiHead" src="https://pic.moyu233.xyz/i/1/logo.png"> </image>
+<!-- AI头像 -->
+<image class="image_aiHead" src="https://exmple.com/exmple.png"> </image>
 
 <view class="path_aiTitle">
 <view>
