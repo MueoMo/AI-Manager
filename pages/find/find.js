@@ -5,8 +5,8 @@ const numRandomDocs = getAiDataNums;
 
 Page({
 data:{
-//初始化数据
-  data_ai:[{name:''}] 
+// 初始化数据
+  data_ai:[{name:'',headUrl:''}] 
 },
 
 onLoad(){

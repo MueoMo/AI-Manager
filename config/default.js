@@ -10,7 +10,7 @@ const dbAiName = 'DATA_AI_CONFIRM'
 // 不过审数据库名称
 const dbPassName = 'DATA_AI_PASS' 
 
-// 发现页展示的AI数量,过多可能引起卡顿
+// 发现页展示的数量,过多可能引起卡顿
 const getAiDataNums = 5 
 
 // 对于用户提交数据表单的合法性检测逻辑

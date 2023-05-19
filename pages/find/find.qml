@@ -1,20 +1,17 @@
 <view class="path_background">
 <!-- AI列表 -->
 <view class="path_card" qq:for="{{data_ai}}">
-<!-- AI头像 -->
-<image class="image_aiHead" src="https://exmple.com/exmple.png"> </image>
-
+<image class="image_aiHead" src="../../config/demoHead.jpg"> </image>
 <view class="path_aiTitle">
+<label class="label_aiName">{{item.input_aiName}}</label>
 <view>
-<label class="label_aiName">{{item.name}}</label>
+<label class="label_aiSex">{{item.radio_aiGender}}</label>
+<label class="label_line">|</label>
+<label class="label_aiTag" qq:for="{{item.checkbox_aiTagGroup}}">{{item}}</label>
 </view>
-<label class="label_aiSex">--性别</label>
-<label class="label_aiTag" qq:for="{{item.checkbox_aiTagGroup}}">--标签</label>
 </view>
-
 <view>
-<label>AI介绍</label>
+<label class="label_aiIntroduce">{{item.textarea_aiIntroduce}}</label>
 </view>
-
 </view>
 </view>

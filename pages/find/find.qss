@@ -12,14 +12,53 @@
   margin-top:10px;
 }
 .image_aiHead{
-  width: 70px;
-  height:70px;
+  width: 60px;
+  height:60px;
   border-radius:100%;
   background-color:black;
   margin-top:5px;
   margin-left:5px;
   display: inline-block;
+  vertical-align:top;
 }
 .path_aiTitle{
   display: inline-block;
+  margin-top:10px;
+}
+.label_aiTag{
+ background-color:#EBEAF9;
+ margin-right:5px;
+ margin-left:5px;
+ margin-bottom:7px;
+ font-size:13px;
+ border-radius:15px;
+ display:inline-block;
+ width:45px;
+ height:20px;
+ text-align: center;
+ font-family: "Microsoft YaHei";
+ color:#333333;
+}
+.label_line{
+  color:#333333;
+  font-size:11px;
+  margin-right:5px;
+  margin-left:5px;
+}
+.label_aiName{
+  font-size:17px;
+  margin-right:5px;
+  margin-left:5px;
+}
+.label_aiSex{
+  font-size:15px;
+  margin-right:5px;
+  margin-left:5px;
+}
+.label_aiIntroduce{
+  font-size:17px;
+  margin-right:7px;
+  margin-left:7px;
+  margin-bottom:10px;
+  vertical-align:top;
 }
